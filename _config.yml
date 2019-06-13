@@ -12,7 +12,7 @@ github_repo: "https://github.com/chenxiangzhen/chenxiangzhen.github.io.git" # yo
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/aboutby.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -21,8 +21,8 @@ RSS: false
 # weibo_username:     chenxiangzhen
 zhihu_username:     chenxiangzhen
 github_username:    chenxiangzhen
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+#facebook_username:  baiying.qiu.7
+#jianshu_username:   e71990ada2fd
 #twitter_username:   chenxiangzhen
 
 
@@ -58,28 +58,28 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: chenxiangzhen
+disqus_username: chenxiangzhen
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: chenxiangzhen.github.io    #仓库名称
-  owner: chenxiangzhen    #github用户名
-  admin: chenxiangzhen
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: false    #是否开启Gitalk评论
+#  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+#  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+#  repo: chenxiangzhen.github.io    #仓库名称
+#  owner: chenxiangzhen    #github用户名
+#  admin: chenxiangzhen
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: chenxiangzhen.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: chenxiangzhen.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -100,11 +100,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书",
+        href: "http://www.jianshu.com"
     },{
         title: "Apple",
         href: "https://apple.com"
